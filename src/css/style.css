@@ -1,0 +1,34 @@
+*{
+  box-sizing: border-box;
+}
+
+.collapse {
+  padding: 40px;
+}
+.collapse__btn {
+  cursor: pointer;
+  padding: 10px;
+  margin: 30px;
+  background-color: brown;
+  color: aliceblue;
+  transition-duration: 0.5s;
+}
+
+.collapse__btn:hover {
+  background-color: red; 
+}
+
+.collapse__cont {
+  height: 0;
+  overflow: hidden;
+  transition-property: height;
+  transition-duration: 2s;
+}
+
+.collapse__text {
+  margin: 30px;
+  padding: 10px;
+  display: block;
+  border: 2px solid black;
+  width: 500px; 
+}
